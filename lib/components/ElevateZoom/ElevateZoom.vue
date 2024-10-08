@@ -1,4 +1,6 @@
 <script setup lang="ts">
+// TODO: scaleFactor를 조절할 수 있도록 하기.
+// TODO: 각 요소의 스타일링을 제어할 수 있도록 만들기.
 import { ref, computed, watch } from "vue";
 
 const props = defineProps<{
