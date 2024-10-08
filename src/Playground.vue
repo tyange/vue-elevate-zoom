@@ -5,7 +5,11 @@ import ElevateZoom from "../lib/components/ElevateZoom/ElevateZoom.vue";
 <template>
   <div class="playground">
     <h1>Playground</h1>
-    <ElevateZoom />
+    <ElevateZoom
+      :image="'https://picsum.photos/id/237/200/300'"
+      :origin-image="'https://picsum.photos/id/237/400/600'"
+      :is-active-elevate-zoom="false"
+    />
   </div>
 </template>
 
